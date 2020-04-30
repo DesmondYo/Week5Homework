@@ -5,6 +5,7 @@ public class SpacedLogger implements Logger {
 		
 
 	}
+	
 	//6 & 7.
 	@Override
 	public void log(String log) {
@@ -15,7 +16,8 @@ public class SpacedLogger implements Logger {
 		}
 		System.out.println(sb.toString());
 	}
-
+	
+	//8.
 	@Override
 	public void Error(String Error) {
 			String input = Error.toString();
@@ -26,4 +28,3 @@ public class SpacedLogger implements Logger {
 			System.out.println("Error: "+ sb.toString() );
 		}
 	}
-

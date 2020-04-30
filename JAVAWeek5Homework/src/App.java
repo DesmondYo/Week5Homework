@@ -1,7 +1,9 @@
+//9.
 public class App {
 
 	public static void main(String[] args) {
 		
+		//10 & 11.
 		Logger logger = new AsteriskLogger();
 		
 		logger.log("Hello, welcome");
@@ -15,5 +17,4 @@ public class App {
 		logger2.Error("You lose");
 
 	}
-
 }

@@ -5,12 +5,14 @@ public class AsteriskLogger implements Logger {
 		
 
 	}
+	
 	//4.
 	@Override
 	public void log(String Hello) {
 		System.out.println("***" + Hello + "***");
 		
 	}
+	
 	//5.
 	@Override
 	public void Error(String Error) {
